@@ -125,6 +125,10 @@ body {
   color: var(--accent-color);
 }
 
+.nav-link.current {
+  color: var(--accent-color);
+}
+
 .contact-link {
   display: flex;
   align-items: center;
@@ -148,10 +152,6 @@ body {
 
 .contact-header:last-child {
   margin-right: 0;
-}
-
-.nav-link.current {
-  color: var(--accent-color);
 }
 
 .icon-envelope {
